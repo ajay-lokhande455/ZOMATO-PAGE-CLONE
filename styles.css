@@ -252,12 +252,12 @@ p.sub-text{
 
 .about-cards{
     display: flex;
-    gap: 15vh;
+    justify-content: space-between;
 }
 .about-card h4{
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: rgb(0, 0, 0);
     padding-top: 7vh;
 }
