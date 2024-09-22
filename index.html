@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function updatePlaceholder() {
+            var emailRadio = document.getElementById("email");
+            var inputField = document.getElementById("inputField");
+
+            if (emailRadio.checked) {
+                inputField.placeholder = "email";
+                inputField.type = "email";
+            } else {
+                inputField.placeholder = "+91 | type here...";
+                inputField.type = "tel";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="head-container">
+        <div class="header-section">
+            <div class="left-head">
+                <h5>Get the app</h5>
+            </div>
+            <div class="right-head">
+                <ul>
+                    <li>Investor Relations</li>
+                    <li>Add Resturant</li>
+                    <li>Log in</li>
+                    <li>Sign Up</li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo"><img src="assets/zomoto.avif" alt="Zomato" width="300">
+            <p>Discover the best food & drinks in Nagpur</p>
+            <input type="text" placeholder="Nagpur, Maharashtra India | Search the Resturant, cuisine or a dish">
+        </div>
+    </header>
+    <section class="cards">
+        <div class="card">
+            <div><img src="assets/1st.avif" alt="card 1"></div>
+            <p class="headline">Order Online</p>
+            <p>Stay home and order to your doorstep</p>
+        </div>
+        <div class="card">
+            <div><img src="assets/2nd.avif" alt="card 2"></div>
+            <p class="headline">Dining</p>
+            <p>View the city's favourite dinings vanues</p>
+        </div>
+        <div class="card">
+            <div><img src="assets/3rd.avif" alt="card 3"></div>
+            <p class="headline">Nightlife and clubs</p>
+            <p>Explore the city's top nightlife outlets</p>
+        </div>
+    </section>
+    <section class="location-head">
+        <p>Popular localities in and around <b>Nagpur</b></p>
+        <div class="locations">
+            <div class="location">
+                <p class="para1">Dharamapeth</p>
+                <p class="place">172 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Sadar</p>
+                <p class="place">113 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Civil Line</p>
+                <p class="place">63 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Sitabuldi</p>
+                <p class="place">129 Places</p>
+            </div>
+            <div class="location">
+                <p class="para1">Balaji Nagar</p>
+                <p class="place">178 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Pratap Nagar</p>
+                <p class="place">197 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Ramdaspeth</p>
+                <p class="place">62 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="para1">Dhantoli</p>
+                <p class="place">79 Places</p>
+
+            </div>
+            <div class="location">
+                <p class="see-more">See more</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="app-section">
+        <div class="app-left">
+            <img src="/assets/phone.avif" alt="download" width="400">
+        </div>
+        <div class="app-right">
+            <h2> Get the Zomato app</h2>
+            <p>We will send you a link, open it on your phone to download the app</p>
+            <form>
+                <label>
+                    <input type="radio" id="email" name="contact" value="email" onclick="updatePlaceholder()" checked>
+                    Email
+                </label>
+                <label>
+                    <input type="radio" id="mobile" name="contact" value="mobile" onclick="updatePlaceholder()">
+                    Phone
+                </label>
+            </form>
+            <div class="input-box"><input type="text" id="inputField" placeholder="email" />
+                <button>Share app Link</button>
+            </div>
+            <p class="sub-text">Download app from</p>
+            <div class="option-download">
+                <img src="assets/google play.webp" alt="play store">
+                <img src="assets/apple store.webp" alt="apple store">
+            </div>
+        </div>
+    </section>
+    <section class="options-section">
+        <p>Explore options near me</p>
+        <div class="options">
+            <div class="option">
+                <p>Popular cuisines near me</p>
+            </div>
+            <div class="option">
+                <p>Popular restaurant types near me</p>
+            </div>
+            <div class="option">
+                <p>Top Restaurant Chains</p>
+            </div>
+            <div class="option">
+                <p>Cities We Deliver To</p>
+            </div>
+        </div>
+    </section>
+    <section class="abouts">
+        <div class="connect">
+            <div class="left-connect">
+                <img src="assets/zomato 2.avif" alt="zomato" width="132">
+            </div>
+            <div class="right-connect">
+                <li>India</li>
+                <li>English</li>
+            </div>
+        </div>
+        <div class="about-cards">
+            <div class="about-card">
+                <h4>ABOUT ZOMATO</h4>
+                <p>Who We Are</p>
+                <p>Blog</p>
+                <p>Work With Us</p>
+                <p>Investor Relations</p>
+                <p>Report Fraud</p>
+                <p>Press Kit</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="about-card">
+                <h4>ZOMAVERS</h4>
+                <p>Zomato</p>
+                <p>Blinkit</p>
+                <p>Feeding India</p>
+                <p>Hyper pure</p>
+                <p>Zomato Live</p>
+                <p>Zomaland</p>
+                <p>Whether Union</p>
+            </div>
+
+            <div class="about-card">
+                <h4>FOR RESTAURANTS</h4>
+                <p>Partner With Us</p>
+                <p>App For You</p>
+            </div>
+            <div class="about-card">
+                <h4>LEARN MORE</h4>
+                <p>Privacy</p>
+                <p>Security</p>
+                <p>Terms</p>
+                <p>Sitemap</p>
+                
+            </div>
+            <div class="about-card">
+            <h4>SOCIAL LINK</h4>
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>Youtube</p>
+            <p>Facebook</p>
+            <img src="assets/google play.webp" alt="play-store" width="100">
+            <img src="assets/apple store.webp" alt="apple-store" width="100">
+        </div>
+        </div>
+    </section>
+    <hr class="line"></hr>
+    <footer class="footer-content">
+        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
+    </footer>
+</body>
+
+</html>

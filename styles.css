@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.head-container{
+    background-image: url(assets/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    height: 70vh;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 15vh;
+    padding-top: 20px;
+}
+
+.right-head ul{
+    display: flex;
+    gap: 7vh;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.left-head{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo p {
+    font-size: 40px;
+    color: white;
+}
+
+.logo input{
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    display: inline;
+    width: 70%;
+    padding: 15px;
+}
+
+.card img{
+    height: 170px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-radius: 14px 14px 0px 0px;
+}
+.card {
+    height: 240px;
+    width: 350px;
+    font-size: 14x;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+}
+
+.card p{
+    padding-left: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 6vh 15vh;
+}
+
+.headline{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.location-head>p{
+    font-size: 36px;
+    font-weight: 400;
+    padding: 10vh 15vh;
+}
+
+.locations {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 3vh;
+    padding: 0vh 15vh;
+}
+
+.location{
+    border: 1px solid lightgray;
+    height: 13vh;
+    width: 53vh;
+    border-radius: 7px;
+    box-shadow: 0px 1px 1px 0px lightgray;
+    
+}
+.para1{
+    font-size: 20px;
+    padding: 15px 0px 0px 15px;
+    font-weight: 400;
+}
+
+.place{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0px 15px 15px;
+}
+.see-more{
+    padding: 25px 0px 50px 120px;
+}
+
+.app.right{
+    width: 200px;
+    height: 450pxs;
+}
+
+.app-section{
+    background-color: #FFFBF7;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    gap: 5vh;
+    padding: 15vh 15vh 0vh 15vh;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.app-right h2{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.app-right p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(58, 58, 58);
+    padding: 15px 40px 15px 0px;
+}
+
+form{
+    display: flex;
+    gap: 6vh;
+}
+
+.input-box{
+    display: flex;
+    gap: 2vh;
+    padding-top: 20px;
+}
+.input-box input{
+
+    height: 45px;
+    width:50vh;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.input-box button{
+    height: 45px;
+    width:30vh;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: #FFFBF7;
+    background-color: #EF4F5F;
+}
+
+p.sub-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+.option-download{
+    display: flex;
+    gap: 2vh;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.options-section {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+    padding: 0 15vh 15vh ;
+}
+.option p {
+    height: 10vh;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    padding: 20px 24px;
+    border-radius: 9px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 30px;
+}
+
+.abouts{
+    background-color: #FCFCFC;
+    padding: 0 15vh 15vh;
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.right-connect{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.right-connect li{
+    border: 1px solid lightgray;
+    font-size: 18px;
+    color: rgb(28, 28, 28);
+    width: 20vh;
+    border-radius: 7px;
+    padding: 10px 0px 10px 30px;
+}
+
+.about-cards{
+    display: flex;
+    gap: 15vh;
+}
+.about-card h4{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    padding-top: 7vh;
+}
+
+.about-card p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+    color: rgb(28, 28, 28);
+}
+
+.about-card img{
+    padding-top: 10px;
+}
+.line{
+    border-width: 1px 0px 0px;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: rgb(207, 207, 207);
+    padding: 0 15vh;
+}
+.footer-content{
+    padding: 3vh 15vh;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(79, 79, 79);
+}
+
+
